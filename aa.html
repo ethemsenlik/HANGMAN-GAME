@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aa.css">
+    <title>Adam Asmaca</title>
+</head>
+<body>
+    <h1>Adam Asmaca</h1>
+    <p>Gizli kelimeyi bulmak için doğru tahminleri yapın...</p>
+    <div class="container">
+        <svg height="250" width="250" class="grafik">
+            <!--SEHPA-->
+            <line x1="30" y1="30" x2="30" y2="180"/>
+            <line x1="30" y1="30" x2="70" y2="30"/>
+            <line x1="70" y1="30" x2="70" y2="50"/>
+            <line x1="10" y1="180" x2="50" y2="180"/>
+            <!--KAFA-->
+            <circle cx="70" cy="60" r="10" class="item"/>
+            <!--GÖVDE-->
+            <line x1="70" y1="70" x2="70" y2="120" class="item"/>
+            <!--AYAKLAR-->
+            <line x1="60" y1="150" x2="70" y2="120" class="item"/>
+            <line x1="80" y1="150" x2="70" y2="120" class="item"/>
+            <!--ELLER-->
+            <line x1="80" y1="120" x2="70" y2="80" class="item"/>
+            <line x1="60" y1="120" x2="70" y2="80" class="item"/>
+        </svg>
+        <div id="wrong-leters">
+            <h3>Hatalı Harfler</h3>
+            <span></span>
+        </div>
+        <div id="word">
+
+        </div>
+    </div>
+
+    <div id="popup-container">
+        <div class="popup">
+            <h2 id="success-message">Kazandınız</h2>
+            <button id="play-again">Tekrar oyna</button>
+        </div>
+    </div>
+
+    <div id="message" class="">
+        <p>Bu harfi zaten girdiniz.</p>
+    </div>
+
+    <script src="aa.js"></script>
+</body>
+</html>
